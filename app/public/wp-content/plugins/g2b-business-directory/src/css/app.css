@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.wp-admin .wrap {
+    @apply max-w-7xl mx-auto;
+}
+
+/* Override WordPress admin styles */
+.wp-core-ui .button-primary {
+    @apply bg-blue-600 hover:bg-blue-700 border-blue-600;
+}
+
+.wp-core-ui .button-secondary {
+    @apply bg-white hover:bg-gray-50 border-gray-300;
+}

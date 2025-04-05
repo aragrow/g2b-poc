@@ -1,0 +1,9 @@
+{
+    "name": "g2b-enterprise/business-directory",
+    "description": "A modern business directory plugin with React API integration",
+    "type": "wordpress-plugin",
+    "require": {
+        "firebase/php-jwt": "^6.0"
+    },
+    "license": "GPL-2.0-or-later"
+}

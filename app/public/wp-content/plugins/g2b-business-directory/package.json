@@ -1,0 +1,13 @@
+{
+  "name": "g2b-business-directory",
+  "version": "1.0.0",
+  "description": "G2B Business Directory WordPress Plugin",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/css/app.css -o ./assets/css/tailwind.min.css --minify",
+    "watch:css": "tailwindcss -i ./src/css/app.css -o ./assets/css/tailwind.min.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "tailwindcss": "^3.4.1"
+  }
+}
